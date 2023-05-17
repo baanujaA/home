@@ -1,0 +1,123 @@
+/* "*"  applies to all elements. All elements will have the same font and will be centered. */
+
+*
+{
+	font-family: "Comic Sans Ms", cursive;
+	text-align: center;
+}
+
+
+/* all parts (except specified) parts of body is 13pt and is black. "p" element not needed as body element covers it */
+body
+
+{
+	background-color: rgb(172, 242, 231);
+	color: black;
+	font-size: 13pt;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+
+
+#Top 
+{
+	background-color: #023436;
+	color: white;
+	font-size: 40pt;
+
+}
+
+h2
+{
+	background-color: #023436;
+	color: white;
+	font-size: 25pt;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+
+h3
+{
+	background-color: #849324;
+	color: black;
+}
+
+h4
+{
+	background-color: #1E352F;
+	color: white;
+}
+
+
+li
+{
+	color: black;
+	font-size: 12pt;
+}
+
+a
+{
+	color: blue;
+}
+
+
+/* format/stle of navigation bar */
+
+.topnav 
+{
+  	background-color: #849324;
+  	overflow: hidden;
+}
+
+
+.topnav a {
+	color: black;
+	font-size: 13pt;
+	float: left;
+	padding: 14pt;
+}
+
+.topnav a:hover {
+ 	background-color: black;
+  	color: white;
+}
+
+img
+{
+	border-width: medium; 
+	border-color: black;
+	border-style: solid;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+
+/* class used to center photos*/
+.centerphotos
+{
+	margin-left:2%;
+	margin-right:2%;
+}
+
+
+video
+{
+	margin-left:24%;
+	margin-right: 24%;
+}
+
+/* class used to center videos*/
+.centervideos
+{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+
+#bottom
+{
+	background-color:#849324;
+}
+

@@ -1,0 +1,43 @@
+body
+{
+	background-color: rgb(186, 225, 227);
+}
+
+
+
+h1
+{
+	font-size: 30pt;
+	background-color: #023436;
+	color: white;
+}
+
+.heading2
+{
+	background-color: #849324;
+
+p
+{ 
+	color: black;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+
+
+
+
+
+
+/* all links will be blue*/
+a
+{
+	color: blue;
+}
+
+/* all images will have a black border*/
+img
+{
+	border-color:black;
+	border-style:solid;
+}

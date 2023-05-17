@@ -1,0 +1,54 @@
+/* "*"  applies to all elements. All elements will have the same font and will be centered. */
+
+*
+{
+	font-family: "Comic Sans Ms", cursive;
+	text-align: center;
+}
+
+body
+{
+	background-image: url(JellyfishBackground.jpg); /* displays an image as the background rather than a solid colour*/
+}
+
+h1,h2
+{
+	font-size: 30pt;
+	background-color: #5E68A0;
+	color: white;
+}
+
+/* #Jellyfish is h1 but id selector is used to declare a different font size*/
+#Jellyfish
+{
+	font-size: 40pt;
+}
+
+p
+{ 
+	color: white;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+a
+{
+	color: blue;
+}
+
+img
+{
+	border-color:black;
+	border-style:solid;
+}
+
+video
+{
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+li
+{
+	color: white;
+}
